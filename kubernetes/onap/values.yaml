@@ -28,7 +28,7 @@ global:
   # repository but ONLY if your repository mirrors all ONAP
   # docker images. This includes all images from dockerhub and
   # any other repository that hosts images for ONAP components.
-  #repository: nexus3.onap.org:10001
+  repository: pirl-nexus3.cisco.com:10011
   repositoryCred:
     user: docker
     password: docker
@@ -50,8 +50,7 @@ global:
   debugEnabled: false
 
 # Repository for creation of nexus3.onap.org secret
-repository: nexus3.onap.org:10001
-
+repository: pirl-nexus3.cisco.com:10011
 
 #################################################################
 # Enable/disable and configure helm charts (ie. applications)
