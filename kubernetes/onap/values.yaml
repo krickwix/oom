@@ -130,12 +130,12 @@ so:
     # message router configuration
     dmaapTopic: "AUTO"
     # openstack configuration
-    openStackUserName: "vnf_user"
+    openStackUserName: "admin"
     openStackRegion: "RegionOne"
-    openStackKeyStoneUrl: "http://1.2.3.4:5000"
+    openStackKeyStoneUrl: "http://10.60.18.105:5000"
     openStackServiceTenantName: "service"
-    openStackEncryptedPasswordHere: "c124921a3a0efbe579782cde8227681e"
-
+    openStackEncryptedPasswordHere: "0fc48bd43a6e041ca3041dc8f9ef62cb"
+    
   # configure embedded mariadb
   mariadb:
     config:
